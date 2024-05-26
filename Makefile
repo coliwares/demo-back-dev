@@ -13,6 +13,7 @@ pre-build:
 	./gradlew build
 
 test:
+	chmod +x ./gradlew
 	./gradlew test
 
 clean-images-not-used:

@@ -9,6 +9,7 @@ pipeline {
         stage('Clean images not used'){
             steps{
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    sh "gradle -v"
                     sh "make clean"
                 }
             }

@@ -14,7 +14,6 @@ pre-build:
 
 test:
 	chmod +x ./gradlew
-	gradle -v
 	./gradlew test --stacktrace
 
 clean-images-not-used:

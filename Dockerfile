@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:17
 ARG JAR_FILE
 ARG JAVA_MEM
 COPY ${JAR_FILE} app.jar

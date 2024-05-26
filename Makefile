@@ -14,6 +14,7 @@ pre-build:
 
 test:
 	chmod +x ./gradlew
+	chmod +x ./gradle
 	./gradle -v
 	./gradlew test --stacktrace
 
